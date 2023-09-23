@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Core", "..\Projects\Dotmim.Sync.Core\Dotmim.Sync.Core.csproj", "{0D8EB514-E877-411A-8133-1515711A8C66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer", "..\Projects\Dotmim.Sync.SqlServer\Dotmim.Sync.SqlServer.csproj", "{9C5B5E86-C941-4718-A8F6-9EE96FEEEF97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Sqlite", "..\Projects\Dotmim.Sync.Sqlite\Dotmim.Sync.Sqlite.csproj", "{B9CF32D5-30F9-4778-BAFD-EDA867A817B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Web.Server", "..\Projects\Dotmim.Sync.Web.Server\Dotmim.Sync.Web.Server.csproj", "{C1F7296A-4B1F-4016-AB19-FC1A9FE3BC71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Web.Client", "..\Projects\Dotmim.Sync.Web.Client\Dotmim.Sync.Web.Client.csproj", "{7377AC81-EB0A-46DD-BC5E-EE149BA9D362}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{3334B930-49DF-4984-9730-AA4559C02E1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer.ChangeTracking", "..\Projects\Dotmim.Sync.SqlServer.ChangeTracking\Dotmim.Sync.SqlServer.ChangeTracking.csproj", "{ED1E16FB-D68A-4587-B907-9F2344D7027F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.MySql", "..\Projects\Dotmim.Sync.MySql\Dotmim.Sync.MySql.csproj", "{FD50CD09-4B05-4C6C-ACD3-29C7056C9183}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWebAuthSync", "HelloWebAuthSync", "{00CD35ED-877B-4827-9148-A2485FFFEA6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebAuthSyncServer", "HelloWebAuthSync\HelloWebAuthSyncServer\HelloWebAuthSyncServer.csproj", "{4FE6A269-BDB9-4B82-B479-6D4F29856204}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebAuthSyncClient", "HelloWebAuthSync\HelloWebAuthSyncClient\HelloWebAuthSyncClient.csproj", "{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.MariaDB", "..\Projects\Dotmim.Sync.MariaDB\Dotmim.Sync.MariaDB.csproj", "{02451C64-D43E-4C4C-A1E1-276EC06DD446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8EB514-E877-411A-8133-1515711A8C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8EB514-E877-411A-8133-1515711A8C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8EB514-E877-411A-8133-1515711A8C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8EB514-E877-411A-8133-1515711A8C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5B5E86-C941-4718-A8F6-9EE96FEEEF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5B5E86-C941-4718-A8F6-9EE96FEEEF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5B5E86-C941-4718-A8F6-9EE96FEEEF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5B5E86-C941-4718-A8F6-9EE96FEEEF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CF32D5-30F9-4778-BAFD-EDA867A817B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CF32D5-30F9-4778-BAFD-EDA867A817B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CF32D5-30F9-4778-BAFD-EDA867A817B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CF32D5-30F9-4778-BAFD-EDA867A817B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F7296A-4B1F-4016-AB19-FC1A9FE3BC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F7296A-4B1F-4016-AB19-FC1A9FE3BC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F7296A-4B1F-4016-AB19-FC1A9FE3BC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F7296A-4B1F-4016-AB19-FC1A9FE3BC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7377AC81-EB0A-46DD-BC5E-EE149BA9D362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7377AC81-EB0A-46DD-BC5E-EE149BA9D362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7377AC81-EB0A-46DD-BC5E-EE149BA9D362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7377AC81-EB0A-46DD-BC5E-EE149BA9D362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1E16FB-D68A-4587-B907-9F2344D7027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1E16FB-D68A-4587-B907-9F2344D7027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1E16FB-D68A-4587-B907-9F2344D7027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1E16FB-D68A-4587-B907-9F2344D7027F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD50CD09-4B05-4C6C-ACD3-29C7056C9183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD50CD09-4B05-4C6C-ACD3-29C7056C9183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD50CD09-4B05-4C6C-ACD3-29C7056C9183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD50CD09-4B05-4C6C-ACD3-29C7056C9183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE6A269-BDB9-4B82-B479-6D4F29856204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE6A269-BDB9-4B82-B479-6D4F29856204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE6A269-BDB9-4B82-B479-6D4F29856204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE6A269-BDB9-4B82-B479-6D4F29856204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02451C64-D43E-4C4C-A1E1-276EC06DD446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02451C64-D43E-4C4C-A1E1-276EC06DD446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02451C64-D43E-4C4C-A1E1-276EC06DD446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02451C64-D43E-4C4C-A1E1-276EC06DD446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00CD35ED-877B-4827-9148-A2485FFFEA6E} = {3334B930-49DF-4984-9730-AA4559C02E1C}
+		{4FE6A269-BDB9-4B82-B479-6D4F29856204} = {00CD35ED-877B-4827-9148-A2485FFFEA6E}
+		{E915FBF9-F7C7-4CED-8C1F-B64B5493C0AF} = {00CD35ED-877B-4827-9148-A2485FFFEA6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC6BB5E5-6A25-46EF-BAAD-3F5822392673}
+	EndGlobalSection
+EndGlobal
